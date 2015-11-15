@@ -3,7 +3,7 @@
 }
 
 .hentry {
-	margin: 0 0 1.5em;
+	margin: 0;
 }
 
 .byline,
@@ -19,10 +19,53 @@
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	margin: 0;
 }
 
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.post {
+    &.red {
+        background-color: $red;
+        border-left: solid 50px $red_dark;
+        border-bottom: solid 50px $red_dark;
+    }
+    &.blue {
+        background-color: $blue;
+        border-left: solid 50px $blue_dark;
+        border-bottom: solid 50px $blue_dark;
+    }
+    &.green {
+        background-color: $green;
+        border-left: solid 50px $green_dark;
+        border-bottom: solid 50px $green_dark;
+    }
+    &.yellow {
+        background-color: $yellow;
+        border-left: solid 50px $yellow_dark;
+        border-bottom: solid 50px $yellow_dark;
+    }
+    &.charcoal {
+        background-color: $charcoal;
+        border-left: solid 50px $charcoal_dark;
+        border-bottom: solid 50px $charcoal_dark;
+    }
+    &.purple {
+        background-color: $purple;
+        border-left: solid 50px $purple_dark;
+        border-bottom: solid 50px $purple_dark;
+    }
+    &.grey {
+        background-color: $grey;
+        border-left: solid 50px $grey_dark;
+        border-bottom: solid 50px $grey_dark;
+    }
+    &.chalk {
+        background-color: $chalk;
+        border-left: solid 50px $chalk_dark;
+        border-bottom: solid 50px $chalk_dark;
+    }
 }
